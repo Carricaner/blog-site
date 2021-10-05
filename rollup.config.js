@@ -12,7 +12,7 @@ export default {
     sourcemap: false,
     format: 'iife',
     name: 'main',
-    file: 'dist/assets/main.bundle.js',
+    file: 'docs/assets/main.bundle.js',
   },
   plugins: [
     replace({
@@ -20,7 +20,7 @@ export default {
     }),
     svg(),
     postcss({
-      extract: path.resolve('dist/assets/main.bundle.css'),
+      extract: path.resolve('docs/assets/main.bundle.css'),
       minimize: !dev,
     }),
     !dev && terser(),

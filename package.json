@@ -32,5 +32,8 @@
     "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "markdown-it": "^12.2.0"
   }
 }
